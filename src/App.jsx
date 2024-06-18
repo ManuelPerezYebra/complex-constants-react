@@ -1,13 +1,14 @@
 import { GlobalStyles } from "./GlobalStyles/GlobalStyles";
+import Form from "./components/form/Form";
 
 const App = () => {
-	return <>
+	return( 
+	<>
 	<GlobalStyles></GlobalStyles>
-	<h1>Núcleo de la aplicación</h1>;
-	
-	
-	</> 
-	
+	<Form>
+	</Form> 
+	</>
+	);
 };
 
 export default App;
